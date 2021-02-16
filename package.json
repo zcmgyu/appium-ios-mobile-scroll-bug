@@ -1,0 +1,14 @@
+{
+  "name": "ios-mobile-scroll-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^8.3.0",
+    "wd": "^1.14.0"
+  },
+  "scripts": {
+    "integration-app": "node ./node_modules/mocha/bin/mocha integration-app.js --timeout 120000",
+    "the-app": "node ./node_modules/mocha/bin/mocha the-app.js --timeout 120000"
+  }
+}
